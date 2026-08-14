@@ -120,11 +120,12 @@ tooltip label {
     font-weight: bold;
     min-width: 58px;
     min-height:20px;
+    color: white
 
 }
 
 
-#battery.good {
+/*#battery.good {
     color: rgba(142, 221, 134, 1);
 }
 
@@ -142,10 +143,11 @@ tooltip label {
 
 #battery.low {
     color: rgba(235, 111, 146, 1);
-}
+}*/
 
 #pulseaudio {
-    color: rgba(246, 193, 119, 1);
+    /*color: rgba(246, 193, 119, 1);*/
+    color: white;
     border-radius: 20px;
     margin: 0 3px;
     min-width: 70px;
@@ -158,7 +160,8 @@ tooltip label {
 }
 
 #network {
-    color: rgba(72, 105, 187, 1);
+    /*color: rgba(72, 105, 187, 1);*/
+    color: white;
     border-radius: 20px;
     margin: 0 3px;
     min-width: 70px;
@@ -170,23 +173,27 @@ tooltip label {
     background: rgba(25, 23, 36, 0.8);
 }
 
+/*
 #network.disconnected {
     color: #eb6f92;
 }
+*/
 
 #bluetooth { 
     border-radius: 20px;
     min-width: 30px;
     min-height:20px;
     padding: 4 10px;
-    color: rgb(152, 72, 187);
+    /*color: rgb(152, 72, 187);*/
+    color: white;
     border: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: bold;
     background: rgba(25, 23, 36, 0.8);
 }
 
-
+/*
 #bluetooth.disabled,
 #bluetooth.off {
     color: rgba(235, 111, 146, 1);
 }
+*/
